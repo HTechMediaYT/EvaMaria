@@ -1,4 +1,4 @@
-# EvaMaria Bot
+# EvaMaria Bot 😊
 
 </a>
 </p>
