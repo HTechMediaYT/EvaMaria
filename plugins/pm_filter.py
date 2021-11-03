@@ -126,7 +126,6 @@ async def next_page(bot, query):
                       ]
                   )
              )
-      return
 
     if 0 < offset <= 10:
         off_set = 0
