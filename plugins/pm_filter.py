@@ -138,6 +138,7 @@ async def next_page(bot, query):
            
             for file in files
         ]
+         return
       
 
     if 0 < offset <= 10:
