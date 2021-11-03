@@ -110,8 +110,6 @@ async def next_page(bot, query):
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
-            for file in files
-        ]
      else:
          Send_message = await bot.send_photo(
             chat_id=update.chat.id,
@@ -120,7 +118,11 @@ async def next_page(bot, query):
             reply_to_message_id=update.message_id
          ) 
          await asyncio.sleep(5)
-         await Send_message.delete()         
+         await Send_message.delete()   
+           
+            for file in files
+        ]
+      
 
     if 0 < offset <= 10:
         off_set = 0
